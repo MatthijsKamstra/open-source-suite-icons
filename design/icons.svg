@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1024"
+   height="1024"
+   viewBox="0 0 1024 1024"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   sodipodi:docname="icons.svg"
+   inkscape:export-filename="export/gimp_square.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.33447266"
+     inkscape:cx="1595.0482"
+     inkscape:cy="692.13431"
+     inkscape:window-width="1496"
+     inkscape:window-height="905"
+     inkscape:window-x="0"
+     inkscape:window-y="34"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer3"
+     showguides="true">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="1024"
+       height="1024"
+       id="page7388"
+       inkscape:label="gimp_square"
+       inkscape:export-filename="export/gimp_square.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <inkscape:page
+       x="1613.2543"
+       y="-2.1509552"
+       width="1024.0001"
+       height="1024"
+       id="page7390"
+       inkscape:label="inkscape_square"
+       inkscape:export-filename="export/inkscape_square.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <sodipodi:guide
+       position="1021.8491,2.1509399"
+       orientation="0,-1"
+       id="guide7442"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1024,1024"
+       orientation="0,-1"
+       id="guide7503"
+       inkscape:locked="false" />
+    <inkscape:page
+       x="3298.1018"
+       y="-2.1509323"
+       width="1024"
+       height="1024"
+       id="page7524"
+       inkscape:label="scribus_square"
+       inkscape:export-filename="export/scribus_square.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <rect
+       x="301.55932"
+       y="-193.08475"
+       width="442.57627"
+       height="121.49153"
+       id="rect7069" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3-6-1"
+     inkscape:label="Icon Inkscape"
+     transform="translate(3295.9509)">
+    <rect
+       style="fill:#ffdd55;fill-opacity:1;stroke:none;stroke-width:4.30177"
+       id="rect445-3-6-1-9"
+       width="1019.6982"
+       height="1019.6982"
+       x="2.1508865"
+       y="2.1508865"
+       inkscape:label="bg" />
+    <rect
+       style="display:inline;fill:#554400;fill-opacity:1;stroke:none;stroke-width:3.9657;stroke-opacity:1"
+       id="rect445-7-5-5"
+       width="940.0343"
+       height="940.0343"
+       x="41.982849"
+       y="41.982849"
+       inkscape:label="front" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1073.62px;font-family:'Bebas Neue';-inkscape-font-specification:'Bebas Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffdd55;fill-opacity:1;stroke:none;stroke-width:0.894687;stroke-opacity:1"
+       x="110.46981"
+       y="885.61609"
+       id="text7099-0-7"><tspan
+         sodipodi:role="line"
+         id="tspan7097-6-6"
+         x="110.46981"
+         y="885.61609"
+         style="fill:#ffdd55;fill-opacity:1;stroke-width:0.894687;stroke:none">sc</tspan></text>
+    <g
+       inkscape:groupmode="layer"
+       id="layer2-5-8"
+       inkscape:label="color">
+      <rect
+         style="fill:#554400;fill-opacity:1;stroke:none;stroke-width:0.84019;stroke-opacity:1"
+         id="rect445-31-5"
+         width="199.15981"
+         height="199.15981"
+         x="-297.00891"
+         y="2.1508865"
+         inkscape:label="blue-bg" />
+      <rect
+         style="display:inline;fill:#ffdd55;fill-opacity:1;stroke:none;stroke-width:0.84019"
+         id="rect445-3-0-4"
+         width="199.15981"
+         height="199.15981"
+         x="-297.00891"
+         y="247.60004"
+         inkscape:label="blue-front" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3-6"
+     inkscape:label="Icon Scribus"
+     transform="translate(1613.2544,-2.1509566)">
+    <rect
+       style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:4.30177"
+       id="rect445-3-6-1"
+       width="1019.6982"
+       height="1019.6982"
+       x="2.1508865"
+       y="2.1508865"
+       inkscape:label="bg" />
+    <rect
+       style="display:inline;fill:#552200;fill-opacity:1;stroke:none;stroke-width:3.9657;stroke-opacity:1"
+       id="rect445-7-5"
+       width="940.0343"
+       height="940.0343"
+       x="41.982849"
+       y="41.982849"
+       inkscape:label="front" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1073.62px;font-family:'Bebas Neue';-inkscape-font-specification:'Bebas Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.894687;stroke-opacity:1"
+       x="199.04001"
+       y="887.76703"
+       id="text7099-0"><tspan
+         sodipodi:role="line"
+         id="tspan7097-6"
+         x="199.04001"
+         y="887.76703"
+         style="fill:#ff6600;fill-opacity:1;stroke-width:0.894687;stroke:none">is</tspan></text>
+    <g
+       inkscape:groupmode="layer"
+       id="layer2-5"
+       inkscape:label="color">
+      <rect
+         style="fill:#552200;fill-opacity:1;stroke:none;stroke-width:0.84019;stroke-opacity:1"
+         id="rect445-31"
+         width="199.15981"
+         height="199.15981"
+         x="-297.00891"
+         y="2.1508865"
+         inkscape:label="blue-bg" />
+      <rect
+         style="display:inline;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.84019"
+         id="rect445-3-0"
+         width="199.15981"
+         height="199.15981"
+         x="-297.00891"
+         y="247.60004"
+         inkscape:label="blue-front" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Icon Gimp">
+    <rect
+       style="fill:#00ccff;fill-opacity:1;stroke:none;stroke-width:4.30177"
+       id="rect445-3-6"
+       width="1019.6982"
+       height="1019.6982"
+       x="2.1508865"
+       y="2.1508865"
+       inkscape:label="bg" />
+    <rect
+       style="display:inline;fill:#00222b;fill-opacity:1;stroke:none;stroke-width:3.9657;stroke-opacity:1"
+       id="rect445-7"
+       width="940.0343"
+       height="940.0343"
+       x="41.982849"
+       y="41.982849"
+       inkscape:label="front" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1073.62px;font-family:'Bebas Neue';-inkscape-font-specification:'Bebas Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ccff;fill-opacity:1;stroke:none;stroke-width:0.894687;stroke-opacity:1"
+       x="203.33487"
+       y="887.76697"
+       id="text7099"><tspan
+         sodipodi:role="line"
+         id="tspan7097"
+         x="203.33487"
+         y="887.76697"
+         style="stroke-width:0.894687;stroke:none">Gi</tspan></text>
+    <g
+       inkscape:groupmode="layer"
+       id="layer2"
+       inkscape:label="color">
+      <rect
+         style="fill:#00222b;fill-opacity:1;stroke:none;stroke-width:0.84019;stroke-opacity:1"
+         id="rect445"
+         width="199.15981"
+         height="199.15981"
+         x="-297.00891"
+         y="2.1508865"
+         inkscape:label="blue-bg" />
+      <rect
+         style="display:inline;fill:#00ccff;fill-opacity:1;stroke:none;stroke-width:0.84019"
+         id="rect445-3"
+         width="199.15981"
+         height="199.15981"
+         x="-297.00891"
+         y="247.60004"
+         inkscape:label="blue-front" />
+    </g>
+  </g>
+</svg>
