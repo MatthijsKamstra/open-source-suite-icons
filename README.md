@@ -2,6 +2,14 @@
 
 Collection of suite icons for Gimp, Inkscape and Scribus
 
+## Path to applications
+
+installed on osx
+
+- Gimp: `/Applications/GIMP-2.10.app/Contents/Resources/gimp.icns`
+- Inkscape: `/Applications/Inkscape.app/Contents/Resources/inkscape.icns`
+- Scribus: `/Applications/Scribus.app/Contents/Resources/Scribus.icns`
+
 ## New Logos
 
 | Type   | Gimp                                     | Inkscape                                     | Scribus                                     |

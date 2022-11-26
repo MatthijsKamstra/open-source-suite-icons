@@ -63,3 +63,42 @@ echo "  → Move new icon to the correct folder"
 cp $OUTPUT/../icon.icns $OUTPUT2/Icon.icns
 cp $OUTPUT/../icon.icns $OUTPUT2/$FILE_NAME.icns
 cp $OUTPUT/../icon.icns $OUTPUT/../$FILE_NAME.icns
+
+
+echo "	→ Move new icon to the correct application"
+# move icon to the correct folder
+# cp ~/Downloads/gimp.icns /Applications/GIMP-2.10.app/Contents/Resources/gimp.icns
+# cp ~/Downloads/gimp.icns /Applications/GIMP-2.10.app/Contents/Resources/gimp.icns
+# cp ~/Downloads/gimp.icns /Applications/GIMP-2.10.app/Contents/Resources/gimp.icns
+
+if [ $FILE_NAME == "gimp" ]
+	then
+	echo "GIMP"
+fi
+
+
+case $FILE_NAME in
+
+  gimp)
+    echo -n ">> gimp"
+	# cp ~/Downloads/gimp.icns /Applications/GIMP-2.10.app/Contents/Resources/gimp.icns
+
+    ;;
+
+  scribus)
+    echo -n ">> Scribus"
+	cp $OUTPUT/../icon.icns /Applications/Scribus.app/Contents/Resources/Scribus.icns
+
+    ;;
+
+  inkscape)
+    echo -n ">> inkscape"
+	# cp $OUTPUT/../icon.icns /Applications/Inkscape.app/Contents/Resources/inkscape.icns
+
+    ;;
+
+  *)
+    echo -n "unknown"
+    ;;
+esac
+
