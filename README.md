@@ -4,9 +4,9 @@ Collection of suite icons for Gimp, Inkscape and Scribus
 
 Focused on OSX.
 
-|                        Gimp                        |                          Inkscape                          |                         Scribus                          |
-| :------------------------------------------------: | :--------------------------------------------------------: | :------------------------------------------------------: |
-| ![Gimp](export/gimp/icon.iconset/icon_128x128.png) | ![Inkscape](export/inkscape/icon.iconset/icon_128x128.png) | ![Scribus](export/scribus/icon.iconset/icon_128x128.png) |
+|                            Gimp                            |                              Inkscape                              |                             Scribus                              |
+| :--------------------------------------------------------: | :----------------------------------------------------------------: | :--------------------------------------------------------------: |
+| ![Gimp](export/gimp/hexagon/icon.iconset/icon_128x128.png) | ![Inkscape](export/inkscape/hexagon/icon.iconset/icon_128x128.png) | ![Scribus](export/scribus/hexagon/icon.iconset/icon_128x128.png) |
 
 I used to have access to Adobe Suite. Most of my design work was done with Illustrator, Photoshop and (a little) Indesign. Now I want to replace that with opensource applications. And as an exersice I wanted to change the icons in a Adobe Suite kinda way.
 
@@ -47,9 +47,10 @@ installed on osx
 
 ## New Logos
 
-| Type   | Gimp                                     | Inkscape                                     | Scribus                                     |
-| ------ | ---------------------------------------- | -------------------------------------------- | ------------------------------------------- |
-| Square | ![](design/export/icons_gimp_square.png) | ![](design/export/icons_inkscape_square.png) | ![](design/export/icons_scribus_square.png) |
+| Type    | Gimp                                                       | Inkscape                                                           | Scribus                                                          |
+| ------- | ---------------------------------------------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------- |
+| Square  | ![Gimp](export/gimp/square/icon.iconset/icon_128x128.png)  | ![Inkscape](export/inkscape/square/icon.iconset/icon_128x128.png)  | ![Scribus](export/scribus/square/icon.iconset/icon_128x128.png)  |
+| Hexagon | ![Gimp](export/gimp/hexagon/icon.iconset/icon_128x128.png) | ![Inkscape](export/inkscape/hexagon/icon.iconset/icon_128x128.png) | ![Scribus](export/scribus/hexagon/icon.iconset/icon_128x128.png) |
 
 ## Old logos
 
