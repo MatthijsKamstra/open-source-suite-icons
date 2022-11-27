@@ -68,7 +68,7 @@ cp $OUTPUT/../icon.icns $OUTPUT2/$FILE_NAME.icns
 cp $OUTPUT/../icon.icns $OUTPUT/../$FILE_NAME.icns
 
 
-echo "	→ Move new icon to the correct application"
+# echo "	→ Move new icon to the correct application"
 # move icon to the correct folder
 # cp ~/Downloads/gimp.icns /Applications/GIMP-2.10.app/Contents/Resources/gimp.icns
 # cp ~/Downloads/gimp.icns /Applications/GIMP-2.10.app/Contents/Resources/gimp.icns
