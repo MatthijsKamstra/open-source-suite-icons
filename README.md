@@ -51,6 +51,7 @@ installed on osx
 | ------- | ---------------------------------------------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------- |
 | Square  | ![Gimp](export/gimp/square/icon.iconset/icon_128x128.png)  | ![Inkscape](export/inkscape/square/icon.iconset/icon_128x128.png)  | ![Scribus](export/scribus/square/icon.iconset/icon_128x128.png)  |
 | Hexagon | ![Gimp](export/gimp/hexagon/icon.iconset/icon_128x128.png) | ![Inkscape](export/inkscape/hexagon/icon.iconset/icon_128x128.png) | ![Scribus](export/scribus/hexagon/icon.iconset/icon_128x128.png) |
+| Rounded | ![Gimp](export/gimp/rounded/icon.iconset/icon_128x128.png) | ![Inkscape](export/inkscape/rounded/icon.iconset/icon_128x128.png) | ![Scribus](export/scribus/rounded/icon.iconset/icon_128x128.png) |
 
 ## Old logos
 
