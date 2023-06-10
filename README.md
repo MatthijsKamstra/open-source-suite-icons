@@ -4,9 +4,9 @@ Collection of suite icons for Gimp, Inkscape and Scribus
 
 Focused on OSX.
 
-|                            Gimp                            |                              Inkscape                              |                             Scribus                              |
-| :--------------------------------------------------------: | :----------------------------------------------------------------: | :--------------------------------------------------------------: |
-| ![Gimp](export/gimp/hexagon/icon.iconset/icon_128x128.png) | ![Inkscape](export/inkscape/hexagon/icon.iconset/icon_128x128.png) | ![Scribus](export/scribus/hexagon/icon.iconset/icon_128x128.png) |
+|   Gimp | Inkscape |  Scribus |  Synfig  |
+| :--------------------------------------------------------: | :----------------------------------------------------------------: | :--------------------------------------------------------------: | :---: |
+| ![Gimp](export/gimp/rounded/icon.iconset/icon_128x128.png) | ![Inkscape](export/inkscape/rounded/icon.iconset/icon_128x128.png) | ![Scribus](export/scribus/rounded/icon.iconset/icon_128x128.png) |  ![Synfig](export/synfig/rounded/icon.iconset/icon_128x128.png) |
 
 I used to have access to Adobe Suite. Most of my design work was done with Illustrator, Photoshop and (a little) Indesign. Now I want to replace that with opensource applications. And as an exersice I wanted to change the icons in a Adobe Suite kinda way.
 
@@ -21,6 +21,7 @@ Make sure you have brew installed and copy/paste in you terminal:
 brew install --cask gimp # 👈 gimp: 2.10.32
 brew install --cask inkscape # 👈 inkscape: 1.2.1
 brew install --cask scribus # 👈 scribus: 1.5.8
+brew install synfig # 👈 synfig: 1.5.1_3
 ```
 
 > I added the version that will be installed (at the moment of writing). Those versions will change outside my controle but might explain why this document isn't up-to-date or doesn't work anymore (in the future)
@@ -47,11 +48,11 @@ installed on osx
 
 ## New Logos
 
-| Type    | Gimp                                                       | Inkscape                                                           | Scribus                                                          |
-| ------- | ---------------------------------------------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------- |
-| Square  | ![Gimp](export/gimp/square/icon.iconset/icon_128x128.png)  | ![Inkscape](export/inkscape/square/icon.iconset/icon_128x128.png)  | ![Scribus](export/scribus/square/icon.iconset/icon_128x128.png)  |
-| Hexagon | ![Gimp](export/gimp/hexagon/icon.iconset/icon_128x128.png) | ![Inkscape](export/inkscape/hexagon/icon.iconset/icon_128x128.png) | ![Scribus](export/scribus/hexagon/icon.iconset/icon_128x128.png) |
-| Rounded | ![Gimp](export/gimp/rounded/icon.iconset/icon_128x128.png) | ![Inkscape](export/inkscape/rounded/icon.iconset/icon_128x128.png) | ![Scribus](export/scribus/rounded/icon.iconset/icon_128x128.png) |
+| Type    | Gimp | Inkscape | Scribus  | Synfig  |
+| ------- | ---------------------------------------------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
+| Square  | ![Gimp](export/gimp/square/icon.iconset/icon_128x128.png)  | ![Inkscape](export/inkscape/square/icon.iconset/icon_128x128.png)  | ![Scribus](export/scribus/square/icon.iconset/icon_128x128.png)  | |
+| Hexagon | ![Gimp](export/gimp/hexagon/icon.iconset/icon_128x128.png) | ![Inkscape](export/inkscape/hexagon/icon.iconset/icon_128x128.png) | ![Scribus](export/scribus/hexagon/icon.iconset/icon_128x128.png) | |
+| Rounded | ![Gimp](export/gimp/rounded/icon.iconset/icon_128x128.png) | ![Inkscape](export/inkscape/rounded/icon.iconset/icon_128x128.png) | ![Scribus](export/scribus/rounded/icon.iconset/icon_128x128.png) | |
 
 ## Old logos
 
