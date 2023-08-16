@@ -45,6 +45,7 @@ installed on osx
 - Gimp: `/Applications/GIMP-2.10.app/Contents/Resources/gimp.icns`
 - Inkscape: `/Applications/Inkscape.app/Contents/Resources/inkscape.icns`
 - Scribus: `/Applications/Scribus.app/Contents/Resources/Scribus.icns`
+- SynfigStudio: `/Applications/SynfigStudio.app/Contents/Resources/SynfigStudio.icns`
 
 ## New Logos
 
