@@ -22,9 +22,9 @@ Open Source Suite Icons aims to enhance the visual appeal of your open-source so
 
 Customizing your open-source software icons is a breeze with our step-by-step instructions. Whether you're using Windows, macOS, or Linux, you'll find guidance specific to your operating system in each application's respective folder.
 
-## Collection
+## Icon Collection
 
-Collection of suite icons for:
+Our collection includes icons for the following open-source applications:
 
 - Gimp
 - Inkscape
@@ -34,17 +34,15 @@ Collection of suite icons for:
 - OpenShot
 - Shotcut
 
-Focused on OSX.
-
 |                            Gimp                            |                              Inkscape                              |                             Scribus                              |                             Synfig                             |                              Darktable                               |                              Openshot                              |                             ShotCut                              |
 | :--------------------------------------------------------: | :----------------------------------------------------------------: | :--------------------------------------------------------------: | :------------------------------------------------------------: | :------------------------------------------------------------------: | :----------------------------------------------------------------: | :--------------------------------------------------------------: |
 | ![Gimp](export/gimp/rounded/icon.iconset/icon_128x128.png) | ![Inkscape](export/inkscape/rounded/icon.iconset/icon_128x128.png) | ![Scribus](export/scribus/rounded/icon.iconset/icon_128x128.png) | ![Synfig](export/synfig/rounded/icon.iconset/icon_128x128.png) | ![Darktable](export/darktable/rounded/icon.iconset/icon_128x128.png) | ![Openshot](export/openshot/rounded/icon.iconset/icon_128x128.png) | ![Shotcut](export/shotcut/rounded/icon.iconset/icon_128x128.png) |
 
 I used to have access to Adobe Suite. Most of my design work was done with Illustrator, Photoshop, Animate and (a little) Indesign. Now I want to replace that with opensource applications. And as an exersice I wanted to change the icons in a Adobe Suite kinda way.
 
-## Replacement
+## Application Replacement
 
-Currently I am replacing Adobe Suite with open source
+Are you transitioning from Adobe Suite to open-source alternatives? Here's a quick reference for replacing Adobe Suite applications with open-source equivalents:
 
 | Adobe Suite       | Open Source |
 | ----------------- | ----------- |
@@ -56,17 +54,9 @@ Currently I am replacing Adobe Suite with open source
 | Adobe Premiere    | OpenShot    |
 | Adobe Premiere    | Shotcut     |
 
-## Better replacement
+## Installation of Open-Source Applications
 
-I found this on the interwebs and I like that the different programs have a different color set, so I will use that color set as well.
-
-![](images/redesign/4u9qo18dx6651.jpg)
-
-## Install applications
-
-Easiest way to install these apps on OSX is via [brew](https://brew.sh/).
-
-Make sure you have brew installed and copy/paste in you terminal:
+The easiest way to install these open-source applications on macOS is via [HomeBrew](https://brew.sh/). Make sure you have Homebrew installed and run the following commands in your terminal:
 
 ```bash
 # install
@@ -79,31 +69,29 @@ brew install --cask openshot-video-editor # 👈 openshot-video-editor: 3.1.1
 brew install --cask shotcut # 👈 shotcut: 23.07.29
 ```
 
-> I added the version that will be installed (at the moment of writing). Those versions will change outside my controle but might explain why this document isn't up-to-date or doesn't work anymore (in the future)
+> Please note that the provided versions may change over time, so keep this in mind if you encounter any discrepancies with the instructions.
 
-## Create new icons
+## Creating New Icons
 
-I have created a Inkscape file with the icons: [icons.svg](design/icons.svg).
+To create or modify icons, you can use the provided Inkscape file: [icons.svg](design/icons.svg). Ensure that you have the [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue) font installed or replace it with your preferred font.
 
-If you want to add or modify, you need to install [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue) font or replace it with you own.
-
-Create the icons with a [bash](all.sh) script:
+Generate the icons using the [bash](all.sh) script as follows:
 
 ```bash
 sh all.sh
 ```
 
-and to install the rounded icons:
+For installing rounded icons, use the following command:
 
 ```bash
 sh icons_rounded.sh
 ```
 
-## Path to applications
+## Icon Paths
 
-You can update the icons yourself by coping then in the correct folders
+You can update the icons by copying them to the respective folders:
 
-On OSX:
+**On macOS:**
 
 - Gimp: `/Applications/GIMP.app/Contents/Resources/gimp.icns`
 - Inkscape: `/Applications/Inkscape.app/Contents/Resources/inkscape.icns`
@@ -113,7 +101,7 @@ On OSX:
 - Darktable: `/Applications/darktable.app/Contents/Resources/Icons.icns`
 - Shotcut: `/Applications/Shotcut.app/Contents/Resources/shotcut.icns`
 
-On Windows:
+**On Windows:**:
 
 - Gimp: ``
 - Inkscape: ``
@@ -123,7 +111,7 @@ On Windows:
 - Darktable: ``
 - Shotcut: ``
 
-On Linux:
+**On Linux:**
 
 - Gimp: ``
 - Inkscape: ``
@@ -133,7 +121,15 @@ On Linux:
 - Darktable: ``
 - Shotcut: ``
 
-## New Logos
+## New Logo Styles
+
+We offer a variety of logo styles for each application:
+
+- Square
+- Hexagon
+- Rounded
+
+Choose the style that best fits your preferences and workspace aesthetics.
 
 | Type    | Gimp                                                       | Inkscape                                                           | Scribus                                                          | Synfig                                                         |
 | ------- | ---------------------------------------------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------- | -------------------------------------------------------------- |
@@ -141,19 +137,21 @@ On Linux:
 | Hexagon | ![Gimp](export/gimp/hexagon/icon.iconset/icon_128x128.png) | ![Inkscape](export/inkscape/hexagon/icon.iconset/icon_128x128.png) | ![Scribus](export/scribus/hexagon/icon.iconset/icon_128x128.png) |                                                                |
 | Rounded | ![Gimp](export/gimp/rounded/icon.iconset/icon_128x128.png) | ![Inkscape](export/inkscape/rounded/icon.iconset/icon_128x128.png) | ![Scribus](export/scribus/rounded/icon.iconset/icon_128x128.png) | ![Synfig](export/synfig/rounded/icon.iconset/icon_128x128.png) |
 
+<!--
 ## Old logos
 
-<!--
 | Gimp                       | Inkscape                      | Scribus                      |
 | -------------------------- | ----------------------------- | ---------------------------- |
 | ![](images/logo/gimp.webp) | ![](images/logo/inkscape.png) | ![](images/logo/scribus.png) |
--->
 
 Scribus | Gimp | Inkscape | Synfig
 
 ![](images/logo/taylorjay.hotglue.png)
+-->
 
-## Open source programs
+## Learn More
+
+Explore the open-source alternatives to Adobe Suite:
 
 - https://inkscape.org/
 - https://www.gimp.org/ or https://github.com/Diolinux/PhotoGIMP
@@ -162,3 +160,5 @@ Scribus | Gimp | Inkscape | Synfig
 - https://www.openshot.org/
 - https://shotcut.org/
 - https://www.darktable.org/
+
+Thank you for choosing Open Source Suite Icons to elevate your open-source software experience. We hope you find these icons valuable in enhancing your workspace's visual appeal!
