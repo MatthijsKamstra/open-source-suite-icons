@@ -161,3 +161,4 @@ Scribus | Gimp | Inkscape | Synfig
 - https://synfig.org/
 - https://www.openshot.org/
 - https://shotcut.org/
+- https://www.darktable.org/
