@@ -17,3 +17,6 @@ sh _all_icon.sh design/export/icon_gimp_rounded.png gimp rounded
 sh _all_icon.sh design/export/icon_inkscape_rounded.png inkscape rounded
 sh _all_icon.sh design/export/icon_scribus_rounded.png scribus rounded
 sh _all_icon.sh design/export/icon_synfig_rounded.png synfig rounded
+sh _all_icon.sh design/export/icon_darktable_rounded.png darktable rounded
+sh _all_icon.sh design/export/icon_shotcut_rounded.png shotcut rounded
+sh _all_icon.sh design/export/icon_openshot_rounded.png openshot rounded
