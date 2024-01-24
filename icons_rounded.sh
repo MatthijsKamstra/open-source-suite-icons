@@ -18,13 +18,13 @@ sh _all_icon.sh design/export/icon_shotcut_rounded.png shotcut rounded
 sh _all_icon.sh design/export/icon_openshot_rounded.png openshot rounded
 
 echo "Move Rounded icons"
-cp export/gimp/rounded/icon.icns /Applications/GIMP.app/Contents/Resources/gimp.icns
+sudo cp export/gimp/rounded/icon.icns /Applications/GIMP.app/Contents/Resources/gimp.icns
 # scribus
-cp export/scribus/rounded/icon.icns /Applications/Scribus.app/Contents/Resources/Scribus.icns
+sudo cp export/scribus/rounded/icon.icns /Applications/Scribus.app/Contents/Resources/Scribus.icns
 # inkscape
-cp export/inkscape/rounded/icon.icns /Applications/Inkscape.app/Contents/Resources/inkscape.icns
-cp export/inkscape/rounded/icon.icns /Applications/Inkscape.app/Contents/Resources/icon.icns
-cp export/inkscape/rounded/icon.icns /Applications/Inkscape.app/Contents/Resources/Inkscape-Generic.icns
+sudo cp export/inkscape/rounded/icon.icns /Applications/Inkscape.app/Contents/Resources/inkscape.icns
+sudo cp export/inkscape/rounded/icon.icns /Applications/Inkscape.app/Contents/Resources/icon.icns
+sudo cp export/inkscape/rounded/icon.icns /Applications/Inkscape.app/Contents/Resources/Inkscape-Generic.icns
 # synfig studio
 cp export/synfig/rounded/icon.icns /Applications/SynfigStudio.app/Contents/Resources/SynfigStudio.icns
 #  OpenShot
@@ -34,7 +34,12 @@ cp export/darktable/rounded/icon.icns /Applications/darktable.app/Contents/Resou
 # ShotCut
 cp export/shotcut/rounded/icon.icns /Applications/Shotcut.app/Contents/Resources/shotcut.icns
 
-
+# why is this not permitted
+# cp: /Applications/GIMP.app/Contents/Resources/gimp.icns: Operation not permitted
+# cp: /Applications/Scribus.app/Contents/Resources/Scribus.icns: Operation not permitted
+# cp: /Applications/Inkscape.app/Contents/Resources/inkscape.icns: Operation not permitted
+# cp: /Applications/Inkscape.app/Contents/Resources/icon.icns: Operation not permitted
+# cp: /Applications/Inkscape.app/Contents/Resources/Inkscape-Generic.icns: Operation not permitted
 
 echo "Icons set"
 echo "-End"
