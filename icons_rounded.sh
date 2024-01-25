@@ -41,5 +41,41 @@ cp export/shotcut/rounded/icon.icns /Applications/Shotcut.app/Contents/Resources
 # cp: /Applications/Inkscape.app/Contents/Resources/icon.icns: Operation not permitted
 # cp: /Applications/Inkscape.app/Contents/Resources/Inkscape-Generic.icns: Operation not permitted
 
+# Force a relead
+
+
+# Operation not permitted GIMP/Inkscape/Scribus
+# GIMP
+touch /Applications/GIMP.app
+# scribus
+touch /Applications/Scribus.app
+# inkscape
+touch /Applications/Inkscape.app
+# synfig studio
+touch /Applications/SynfigStudio.app
+#  OpenShot
+touch /Applications/OpenShot\ Video\ Editor.app
+# Darktable
+touch /Applications/darktable.app
+# ShotCut
+touch /Applications/Shotcut.app
+
+
+
+# restart Finder and Dock
+sudo killall Finder
+sudo killall Dock
+
+
+
+# sudo mv /Applications/Inkscape.app /Users/matthijskamstra/Downloads/
+# sudo chown -R :admin /Users/matthijskamstra/Downloads/Inkscape.app
+# sudo chmod -R 755 /Users/matthijskamstra/Downloads/Inkscape.app
+# # sudo mv /Users/matthijskamstra/Downloads/Inkscape.app /Applications/
+
+
+
+
+
 echo "Icons set"
 echo "-End"
