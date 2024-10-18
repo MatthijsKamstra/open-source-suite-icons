@@ -31,8 +31,15 @@ Our collection includes icons for the following open-source applications:
 - Scribus
 - Synfig
 - Darktable
-- OpenShot
-- Shotcut
+- OpenShot (\*)
+- Shotcut (\*\*)
+- Kdenlive (\*\*\*)
+
+```
+* = simple
+** = medior
+*** = semi-pro
+```
 
 |                            Gimp                            |                              Inkscape                              |                             Scribus                              |                             Synfig                             |                              Darktable                               |                              Openshot                              |                             ShotCut                              |
 | :--------------------------------------------------------: | :----------------------------------------------------------------: | :--------------------------------------------------------------: | :------------------------------------------------------------: | :------------------------------------------------------------------: | :----------------------------------------------------------------: | :--------------------------------------------------------------: |
@@ -53,6 +60,7 @@ Are you transitioning from Adobe Suite to open-source alternatives? Here's a qui
 | Adobe Lightroom   | Darktable   |
 | Adobe Premiere    | OpenShot    |
 | Adobe Premiere    | Shotcut     |
+| Adobe Premiere    | Kdenlive    |
 
 ## Installation of Open-Source Applications
 
@@ -60,13 +68,14 @@ The easiest way to install these open-source applications on macOS is via [HomeB
 
 ```bash
 # install
-brew install --cask gimp # 👈 gimp: 2.10.32
-brew install --cask inkscape # 👈 inkscape: 1.2.1
-brew install --cask scribus # 👈 scribus: 1.5.8
-brew install --cask synfigstudio # 👈 synfig: 1.5.1
-brew install --cask darktable # 👈 darktable: 4.4.2
-brew install --cask openshot-video-editor # 👈 openshot-video-editor: 3.1.1
-brew install --cask shotcut # 👈 shotcut: 23.07.29
+brew install gimp # 👈 gimp: 2.10.32
+brew install inkscape # 👈 inkscape: 1.2.1
+brew install scribus # 👈 scribus: 1.5.8
+brew install synfigstudio # 👈 synfig: 1.5.1
+brew install darktable # 👈 darktable: 4.4.2
+brew install openshot-video-editor # 👈 openshot-video-editor: 3.1.1
+brew install shotcut # 👈 shotcut: 23.07.29
+brew install kdenlive # 👈 kdenlive: 24.08.1
 ```
 
 > Please note that the provided versions may change over time, so keep this in mind if you encounter any discrepancies with the instructions.
@@ -100,6 +109,7 @@ You can update the icons by copying them to the respective folders:
 - OpenShot: `/Applications/OpenShot\ Video\ Editor.app/Contents/Resources/icon.icns`
 - Darktable: `/Applications/darktable.app/Contents/Resources/Icons.icns`
 - Shotcut: `/Applications/Shotcut.app/Contents/Resources/shotcut.icns`
+- Kdenlive: `/Applications/`
 
 **On Windows:**:
 
@@ -157,8 +167,9 @@ Explore the open-source alternatives to Adobe Suite:
 - https://www.gimp.org/ or https://github.com/Diolinux/PhotoGIMP
 - https://www.scribus.net/
 - https://synfig.org/
+- https://www.darktable.org/
 - https://www.openshot.org/
 - https://shotcut.org/
-- https://www.darktable.org/
+- https://kdenlive.org/en/
 
 Thank you for choosing Open Source Suite Icons to elevate your open-source software experience. We hope you find these icons valuable in enhancing your workspace's visual appeal!
