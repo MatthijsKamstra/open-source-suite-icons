@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "🦊 Create Gimp/Inkscape/Scribus/Synfig icon..."
+echo "🦊 Create Gimp/Inkscape/Scribus/Synfig/Darktable/Shotcut/OpenShot/Kdenlive icon..."
 
 # Ask for the administrator password upfront.
 sudo -v
@@ -16,6 +16,7 @@ sh _all_icon.sh design/export/icon_synfig_rounded.png synfig rounded
 sh _all_icon.sh design/export/icon_darktable_rounded.png darktable rounded
 sh _all_icon.sh design/export/icon_shotcut_rounded.png shotcut rounded
 sh _all_icon.sh design/export/icon_openshot_rounded.png openshot rounded
+sh _all_icon.sh design/export/icon_kdenlive_rounded.png kdenlive rounded
 
 echo "Move Rounded icons"
 sudo cp export/gimp/rounded/icon.icns /Applications/GIMP.app/Contents/Resources/gimp.icns
@@ -27,12 +28,14 @@ sudo cp export/inkscape/rounded/icon.icns /Applications/Inkscape.app/Contents/Re
 sudo cp export/inkscape/rounded/icon.icns /Applications/Inkscape.app/Contents/Resources/Inkscape-Generic.icns
 # synfig studio
 cp export/synfig/rounded/icon.icns /Applications/SynfigStudio.app/Contents/Resources/SynfigStudio.icns
-#  OpenShot
-cp export/openshot/rounded/icon.icns /Applications/OpenShot\ Video\ Editor.app/Contents/Resources/icon.icns
 # Darktable
 cp export/darktable/rounded/icon.icns /Applications/darktable.app/Contents/Resources/Icons.icns
+#  OpenShot
+cp export/openshot/rounded/icon.icns /Applications/OpenShot\ Video\ Editor.app/Contents/Resources/icon.icns
 # ShotCut
 cp export/shotcut/rounded/icon.icns /Applications/Shotcut.app/Contents/Resources/shotcut.icns
+# Kdenlive
+cp export/kdenlive/rounded/icon.icns /Applications/kdenlive.app/Contents/Resources/kdenlive.icns
 
 # why is this not permitted
 # cp: /Applications/GIMP.app/Contents/Resources/gimp.icns: Operation not permitted
@@ -53,13 +56,14 @@ touch /Applications/Scribus.app
 touch /Applications/Inkscape.app
 # synfig studio
 touch /Applications/SynfigStudio.app
-#  OpenShot
-touch /Applications/OpenShot\ Video\ Editor.app
 # Darktable
 touch /Applications/darktable.app
+#  OpenShot
+touch /Applications/OpenShot\ Video\ Editor.app
 # ShotCut
 touch /Applications/Shotcut.app
-
+# Kdenlive
+touch /Applications/kdenlive.app
 
 
 # restart Finder and Dock
