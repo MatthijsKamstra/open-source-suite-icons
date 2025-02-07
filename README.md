@@ -32,13 +32,11 @@ Our collection includes icons for the following open-source applications:
 - Synfig
 - Darktable
 - OpenShot (\*)
-- Shotcut (\*\*)
-- Kdenlive (\*\*\*)
+- Shotcut
+- Kdenlive
 
 ```
 * = simple
-** = medior
-*** = semi-pro
 ```
 
 |                            Gimp                            |                              Inkscape                              |                             Scribus                              |                             Synfig                             |                              Darktable                               |                              Openshot                              |                             ShotCut                              |
@@ -106,10 +104,10 @@ You can update the icons by copying them to the respective folders:
 - Inkscape: `/Applications/Inkscape.app/Contents/Resources/inkscape.icns`
 - Scribus: `/Applications/Scribus.app/Contents/Resources/Scribus.icns`
 - SynfigStudio: `/Applications/SynfigStudio.app/Contents/Resources/SynfigStudio.icns`
-- OpenShot: `/Applications/OpenShot\ Video\ Editor.app/Contents/Resources/icon.icns`
 - Darktable: `/Applications/darktable.app/Contents/Resources/Icons.icns`
+- OpenShot: `/Applications/OpenShot\ Video\ Editor.app/Contents/Resources/icon.icns`
 - Shotcut: `/Applications/Shotcut.app/Contents/Resources/shotcut.icns`
-- Kdenlive: `/Applications/`
+- Kdenlive: `/Applications/kdenlive.app/Contents/Resources/kdenlive.icns`
 
 **On Windows:**:
 
