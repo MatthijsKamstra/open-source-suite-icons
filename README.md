@@ -94,6 +94,28 @@ For installing rounded icons, use the following command:
 sh icons_rounded.sh
 ```
 
+### macOS notes
+
+Some apps are protected by macOS, so copying icons can fail with "Operation not permitted" even with `sudo`. If that happens:
+
+- Quit the app first.
+- Re-run the script so it can refresh Finder and Dock: [icons_rounded.sh](icons_rounded.sh).
+- If it still fails, remove quarantine attributes and try again:
+
+```bash
+sudo xattr -cr "/Applications/GIMP.app"
+sudo xattr -cr "/Applications/Scribus.app"
+sudo xattr -cr "/Applications/OpenShot Video Editor.app"
+```
+
+- As a last resort, remove the code signature (updates may restore the original icon):
+
+```bash
+sudo codesign --remove-signature "/Applications/GIMP.app"
+sudo codesign --remove-signature "/Applications/Scribus.app"
+sudo codesign --remove-signature "/Applications/OpenShot Video Editor.app"
+```
+
 ## Icon Paths
 
 You can update the icons by copying them to the respective folders:
