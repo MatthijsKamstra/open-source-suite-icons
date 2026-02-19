@@ -25,12 +25,12 @@ copy_icon() {
     local source=$1
     local dest=$2
     local app_name=$3
-    
+
     echo "  → Installing $app_name icon..."
-    
+
     # Remove extended attributes that might prevent modification
     sudo xattr -cr "$(dirname "$dest")" 2>/dev/null
-    
+
     # Try to copy with sudo
     if sudo cp "$source" "$dest" 2>/dev/null; then
         echo "    ✓ $app_name icon installed successfully"

@@ -34,19 +34,19 @@ install_icon() {
     local icon_source=$2
     local icon_dest=$3
     local app_name=$4
-    
+
     if [ -d "$app_path" ]; then
         echo "  → Processing $app_name..."
-        
+
         # Remove quarantine attributes
         sudo xattr -cr "$app_path" 2>/dev/null
-        
+
         # Remove code signature
         sudo codesign --remove-signature "$app_path" 2>/dev/null
         if [ $? -eq 0 ]; then
             echo "    ✓ Signature removed"
         fi
-        
+
         # Copy icon
         if sudo cp "$icon_source" "$icon_dest" 2>/dev/null; then
             echo "    ✓ Icon installed successfully"
