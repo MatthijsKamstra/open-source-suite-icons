@@ -27,15 +27,15 @@ sudo cp export/inkscape/rounded/icon.icns /Applications/Inkscape.app/Contents/Re
 sudo cp export/inkscape/rounded/icon.icns /Applications/Inkscape.app/Contents/Resources/icon.icns
 sudo cp export/inkscape/rounded/icon.icns /Applications/Inkscape.app/Contents/Resources/Inkscape-Generic.icns
 # synfig studio
-cp export/synfig/rounded/icon.icns /Applications/SynfigStudio.app/Contents/Resources/SynfigStudio.icns
+sudo cp export/synfig/rounded/icon.icns /Applications/SynfigStudio.app/Contents/Resources/SynfigStudio.icns
 # Darktable
-cp export/darktable/rounded/icon.icns /Applications/darktable.app/Contents/Resources/Icons.icns
+sudo cp export/darktable/rounded/icon.icns /Applications/darktable.app/Contents/Resources/Icons.icns
 #  OpenShot
-cp export/openshot/rounded/icon.icns /Applications/OpenShot\ Video\ Editor.app/Contents/Resources/icon.icns
+sudo cp export/openshot/rounded/icon.icns /Applications/OpenShot\ Video\ Editor.app/Contents/Resources/icon.icns
 # ShotCut
-cp export/shotcut/rounded/icon.icns /Applications/Shotcut.app/Contents/Resources/shotcut.icns
+sudo cp export/shotcut/rounded/icon.icns /Applications/Shotcut.app/Contents/Resources/shotcut.icns
 # Kdenlive
-cp export/kdenlive/rounded/icon.icns /Applications/kdenlive.app/Contents/Resources/kdenlive.icns
+sudo cp export/kdenlive/rounded/icon.icns /Applications/kdenlive.app/Contents/Resources/kdenlive.icns
 
 # why is this not permitted
 # cp: /Applications/GIMP.app/Contents/Resources/gimp.icns: Operation not permitted
@@ -49,21 +49,21 @@ cp export/kdenlive/rounded/icon.icns /Applications/kdenlive.app/Contents/Resourc
 
 # Operation not permitted GIMP/Inkscape/Scribus
 # GIMP
-touch /Applications/GIMP.app
+sudo touch /Applications/GIMP.app
 # scribus
-touch /Applications/Scribus.app
+sudo touch /Applications/Scribus.app
 # inkscape
-touch /Applications/Inkscape.app
+sudo touch /Applications/Inkscape.app
 # synfig studio
-touch /Applications/SynfigStudio.app
+sudo touch /Applications/SynfigStudio.app
 # Darktable
-touch /Applications/darktable.app
+sudo touch /Applications/darktable.app
 #  OpenShot
-touch /Applications/OpenShot\ Video\ Editor.app
+sudo touch /Applications/OpenShot\ Video\ Editor.app
 # ShotCut
-touch /Applications/Shotcut.app
+sudo touch /Applications/Shotcut.app
 # Kdenlive
-touch /Applications/kdenlive.app
+sudo touch /Applications/kdenlive.app
 
 
 # restart Finder and Dock
